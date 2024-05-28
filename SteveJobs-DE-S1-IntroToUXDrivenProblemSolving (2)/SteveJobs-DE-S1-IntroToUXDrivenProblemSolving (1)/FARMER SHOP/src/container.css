@@ -1,0 +1,470 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* loading Effect */
+/* #headLoader{
+  width: 90%;
+  padding: 33px;
+  background-color: #eeeded;
+  margin: auto;
+  border-radius: 6px;
+  margin-top: 13px;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards{
+  margin-top: 55px;
+}
+.cards .cardLoad{
+  width: 340px;
+  height: 300px;
+  background-color: #eeeded;
+  border-radius: 6px;
+  margin-inline: 20px;
+
+}
+.cardLoad p{
+  width: 330px;
+  height: 25px;
+  background-color: #eeeded;
+  border-radius: 4px;
+  margin-top: 321px;
+} */
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: rgb(248, 164, 103);
+  height: 70px;
+  box-shadow: 1px 3px 3px 3px rgb(216, 216, 216);
+  z-index: 999;
+  
+  
+}
+.logo h1{
+  font-size: 35px;
+}
+ul{
+  display: flex;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  margin-inline: 22px;
+  font-size: 20px;
+}
+.icons{
+  display: flex;
+  gap: 28px;
+}
+.icons i{
+  font-size: 25px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 140px;
+}
+.mainText {
+  margin-top: 42px;
+}
+.mainText h1{
+  font-size: 65px;
+}
+.mainText p{
+  margin-top: 22px;
+}
+.mainText button{
+  margin-top: 22px;
+  width: 140px;
+  height: 40px;
+  background-color: rgb(255, 145, 0);
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.head{
+  text-align: center;
+  padding: 86px;
+}
+.foodCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.foodCard .card{
+  width: 300px;
+  margin-inline: 22px;
+  margin-top: 22px;
+}
+.card img{
+  width: 100%;
+  height: 250px;
+}
+.card p{
+  padding: 9px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.gallery img{
+  margin-inline: 6px;
+  margin-top: 12px;
+}
+.gallery img:hover{
+  box-shadow: 2px 5px 6px 5px gray;
+}
+.gallery img{
+  width: 360px;
+  height: 240px;
+}
+.blogs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.blogCard{
+  display: flex;
+  gap: 22px;
+  width: 500px;
+  padding: 22px;
+  background-color: #575656;
+  margin-inline: 22px;
+  color: white;
+  margin-top: 22px;
+}
+.blogCard img{
+  width: 300px;
+}
+.blogText p{
+  margin-top: 12px;
+}
+.blogText a{
+  padding: 6px 20px;
+  background-color: rgb(255, 102, 0);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 11px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 66px;
+  margin-top: 66px;
+  background-color: rgb(85, 40, 8);
+  color: white;
+
+}
+.text p{
+  margin-top: 12px;
+}
+
+.foodDetail{
+  display: flex;
+  gap: 42px;
+
+  margin-top: 33px;
+  width: 750px;
+}
+.foodDetail img{
+  width: 400px;
+  height: 300px;
+}
+.foodDetail h2{
+  margin-top: 22px;
+}
+.foodDetail p{
+  margin-top: 22px;
+}
+.foodDetail button{
+  margin-top: 22px;
+  width: 110px;
+  height: 33px;
+  background-color: rgb(255, 123, 0);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.foodDetail a{
+  padding: 5px;
+  background-color: rgb(25, 0, 255);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+#food {
+  background-image: url('./screens/images/bg-image3.jpg'); /* Replace 'food-background.jpg' with your actual image file */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+
+/* our work */
+
+.foodCard {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr; /* Adjust card width and responsiveness */
+gap: 20px; /* Adjust gap between cards */
+}
+
+.card {
+background-color: #fff; /* Card background color */
+border-radius: 10px; /* Rounded corners for the cards */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+overflow: hidden; /* Hide overflow content */
+}
+
+.card img {
+width: 100%;
+height: auto;
+border-radius: 10px 10px 0 0; /* Rounded corners for the top of the image */
+}
+
+.card p {
+margin: 15px;
+font-size: 16px; /* Adjust text size */
+color: #333; /* Text color */
+}
+
+.card a {
+display: block;
+text-decoration: none;
+color: inherit; /* Inherit text color from parent */
+}
+
+.card:hover {
+transform: translateY(-5px); /* Add a slight lift effect on hover */
+transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+
+
+
+#bar{
+  display: none;
+  font-size: 25px;
+}
+@media screen and (max-width:1100px){
+  .main{
+      display: block;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width:750px){
+  ul{
+      display: none;
+  }
+  .icons{
+      display: none;
+  }
+  #bar{
+      display: block;
+  }
+}
+
+@media screen and (max-width:600px){
+  .mainText h1{
+      font-size: 33px;
+  }
+  .main img{
+      width: 90%;
+  }
+  .mainText p{
+      font-size: 16px;
+  }
+  
+  .blogCard{
+      display: block;
+      text-align: center;
+      width: 90%;
+  }
+  .blogCard img{
+      width: 90%;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .foodDetail{
+      display: block;
+      text-align: center;
+      width: 90%;
+  }
+  .foodDetail img{
+      width: 90%;
+  }
+}
+@media screen and (max-width:400px){
+  .gallery img{
+      width: 90%;
+      
+  }
+}
+
+
+
+
+
+
+
+/* CSS for Gallery */
+#gallery {
+background-image: url('./screens/images/bg-image2.png'); /* Replace 'gallery-background.jpg' with your actual image file */
+background-size: cover;
+background-position: center;
+padding: 50px 0; /* Adjust padding as needed */
+min-width: 100vw; /* Adjust according to your layout */
+margin: 0 auto; /* Center align the gallery */
+/* background-color: #f4f4f4; Set the background color */
+/* padding: 20px; Add padding for spacing */
+border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.head {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.gallery {
+display: flex;
+border: 1px solid red;
+align-items: center;
+justify-content: center;
+}
+
+.gallery-item{
+min-width: 40vw;
+}
+
+
+
+
+
+
+.buy-button,
+.rent-button {
+display: block;
+margin-top: 10px; /* Adjust spacing between image and buttons */
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.buy-button {
+background-color: #007bff; /* Blue color for the buy button */
+color: #fff; /* White text color */
+}
+
+.rent-button {
+background-color: #28a745; /* Green color for the rent button */
+color: #fff; /* White text color */
+}
+
+.buy-button:hover,
+.rent-button:hover {
+filter: brightness(85%); /* Reduce brightness on hover for visual feedback */
+}
+
+
+
+
+/* css for blogs */
+
+
+
+#blog {
+
+background-image: url('./screens/images/bg-image.jpg'); /* Replace 'blog-background.jpg' with your actual image file */
+background-size: cover;
+background-position: center;
+padding: 50px 0; /* Adjust padding as needed */
+max-width: 800px;
+margin: 0 auto;
+/* background-color: #f8f9fa; Light gray background color */
+/* padding: 20px; Add padding for spacing */
+}
+
+.head {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.carousel-item {
+text-align: center; /* Center align content */
+}
+
+.blogCard {
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+}
+
+.blogCard img {
+width: 100%;
+height: 200px; /* Adjust height as needed */
+object-fit: cover;
+border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+}
+
+.blogText {
+padding: 20px;
+}
+
+.blogText h2 {
+margin-top: 0;
+font-size: 1.5rem;
+}
+
+.blogText p {
+color: #666666;
+}
+
+.blogText a {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 20px;
+background-color: #007bff;
+color: #ffffff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.blogText a:hover {
+background-color: #0056b3;
+}
